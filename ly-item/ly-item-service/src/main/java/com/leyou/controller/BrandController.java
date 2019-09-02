@@ -51,7 +51,6 @@ public class BrandController {
             return  ResponseEntity.ok(brands);
 
         }
-        System.out.println("shabi1");
         return  ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 
     }
