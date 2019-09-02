@@ -51,7 +51,7 @@ public class BrandController {
             return  ResponseEntity.ok(brands);
 
         }
-        System.out.println("ShaBi===001");
+
         return  ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 
     }
